@@ -11,6 +11,15 @@
 		08E333A72A3A331A007B536B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333A62A3A331A007B536B /* ContentView.swift */; };
 		08E333A92A3A331B007B536B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E333A82A3A331B007B536B /* Assets.xcassets */; };
 		08E333AC2A3A331B007B536B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E333AB2A3A331B007B536B /* Preview Assets.xcassets */; };
+		08E333B32A3A389B007B536B /* TimerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333B22A3A389B007B536B /* TimerCounter.swift */; };
+		08E333B52A3A3F18007B536B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333B42A3A3F18007B536B /* LoginView.swift */; };
+		08E333B72A3A3FF9007B536B /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333B62A3A3FF9007B536B /* UserSettings.swift */; };
+		08E333B92A3A4116007B536B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333B82A3A4116007B536B /* RootView.swift */; };
+		08E333BB2A3DF782007B536B /* TimerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333BA2A3DF782007B536B /* TimerButtonView.swift */; };
+		08E333BD2A3E00C7007B536B /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333BC2A3E00C7007B536B /* LoginButtonView.swift */; };
+		08E333BF2A3E0727007B536B /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333BE2A3E0727007B536B /* TextFieldView.swift */; };
+		08E333C12A3E1980007B536B /* LogoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333C02A3E1980007B536B /* LogoutButtonView.swift */; };
+		08E333C52A3E25E1007B536B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E333C42A3E25E1007B536B /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		08E333A62A3A331A007B536B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08E333A82A3A331B007B536B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08E333AB2A3A331B007B536B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08E333B22A3A389B007B536B /* TimerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCounter.swift; sourceTree = "<group>"; };
+		08E333B42A3A3F18007B536B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		08E333B62A3A3FF9007B536B /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		08E333B82A3A4116007B536B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		08E333BA2A3DF782007B536B /* TimerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtonView.swift; sourceTree = "<group>"; };
+		08E333BC2A3E00C7007B536B /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		08E333BE2A3E0727007B536B /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		08E333C02A3E1980007B536B /* LogoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButtonView.swift; sourceTree = "<group>"; };
+		08E333C42A3E25E1007B536B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,15 @@
 			children = (
 				08E333A42A3A331A007B536B /* Lesson_4_03App.swift */,
 				08E333A62A3A331A007B536B /* ContentView.swift */,
+				08E333C02A3E1980007B536B /* LogoutButtonView.swift */,
+				08E333BA2A3DF782007B536B /* TimerButtonView.swift */,
+				08E333B42A3A3F18007B536B /* LoginView.swift */,
+				08E333C42A3E25E1007B536B /* StorageManager.swift */,
+				08E333BE2A3E0727007B536B /* TextFieldView.swift */,
+				08E333BC2A3E00C7007B536B /* LoginButtonView.swift */,
+				08E333B82A3A4116007B536B /* RootView.swift */,
+				08E333B62A3A3FF9007B536B /* UserSettings.swift */,
+				08E333B22A3A389B007B536B /* TimerCounter.swift */,
 				08E333A82A3A331B007B536B /* Assets.xcassets */,
 				08E333AA2A3A331B007B536B /* Preview Content */,
 			);
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E333BD2A3E00C7007B536B /* LoginButtonView.swift in Sources */,
 				08E333A72A3A331A007B536B /* ContentView.swift in Sources */,
+				08E333C52A3E25E1007B536B /* StorageManager.swift in Sources */,
+				08E333B32A3A389B007B536B /* TimerCounter.swift in Sources */,
+				08E333B92A3A4116007B536B /* RootView.swift in Sources */,
+				08E333B52A3A3F18007B536B /* LoginView.swift in Sources */,
+				08E333B72A3A3FF9007B536B /* UserSettings.swift in Sources */,
+				08E333C12A3E1980007B536B /* LogoutButtonView.swift in Sources */,
 				08E333A52A3A331A007B536B /* Lesson_4_03App.swift in Sources */,
+				08E333BB2A3DF782007B536B /* TimerButtonView.swift in Sources */,
+				08E333BF2A3E0727007B536B /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
